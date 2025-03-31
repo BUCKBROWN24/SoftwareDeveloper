@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configure Your Character</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Configure Your Video Game Character</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="view.html">View Character</a>
+    </nav>
+    <main>
+        <form id="characterForm">
+            <label for="characterName">Character Name:</label>
+            <input type="text" id="characterName" name="characterName">
+            <br>
+            <label for="characterType">Character Type:</label>
+            <select id="characterType" name="characterType">
+                <option value="warrior">Warrior</option>
+                <option value="mage">Mage</option>
+                <option value="archer">Archer</option>
+            </select>
+            <br>
+            <label for="characterColor">Character Color:</label>
+            <input type="color" id="characterColor" name="characterColor">
+            <br>
+            <button type="button" id="saveButton">Save Character</button>
+        </form>
+    </main>
+    <footer>
+        <p>Powered by Bruce</p>
+    </footer>
+    <script src="configure.js"></script>
+</body>
+</html>

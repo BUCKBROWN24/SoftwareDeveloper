@@ -1,1 +1,2 @@
 # SoftwareDeveloper
+This site serves as a portfolio to showcase the skills and knowledge I have gained as a software developer. Here, you will find projects, code samples, and insights that demonstrate my journey and growth in the field of software development.
